@@ -40,8 +40,7 @@ while (true) {
 
 	let again;
 	while (true) {
-		const again = input("Play again? (Y/n)\n> ");
-		console.log(typeof again, again);
+		again = input("Play again? (Y/n)\n> ");
 		if (!(again.toLowerCase().startsWith("y") || again.toLowerCase().startsWith("n"))) {
 			console.log("That doesn't start with yes or no. Can't you read?");
 			continue;
