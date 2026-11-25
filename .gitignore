@@ -1,0 +1,4 @@
+node_modules/
+save.txt
+*.log
+.DS_Store

@@ -1,0 +1,11 @@
+{
+  "name": "numberguessinggame",
+  "version": "1.0.0",
+  "description": "A JavaScript number guessing game using EasyJS",
+  "license": "MIT",
+  "author": "KingNullboy",
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": { "start": "node main.js" },
+  "dependencies": { "@kingnullboy/easyjs": "^1.0.0" }
+}
