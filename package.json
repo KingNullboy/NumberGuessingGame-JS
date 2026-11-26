@@ -6,6 +6,10 @@
   "author": "KingNullboy",
   "type": "commonjs",
   "main": "main.js",
-  "scripts": { "start": "node main.js" },
-  "dependencies": { "@kingnullboy/easyjs": "^1.0.0" }
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "@kingnullboy/easyjs": "git+https://github.com/KingNullboy/EasyJS.git"
+  }
 }
